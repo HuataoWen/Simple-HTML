@@ -1,0 +1,114 @@
+body {
+    background-color: white;
+}
+
+.bg {
+    background-color: white;
+    position: relative;
+    width: 415px;
+    height: 650px;
+    margin: auto;
+}
+
+.menuBox {
+    background-color: white;
+
+    position: relative;
+
+    width: 345px;
+    height: 70px;
+    margin: auto;
+
+    border: 1px solid black;
+
+    text-align: center;
+    top: 20px;
+}
+
+.menuBox h1 {
+    margin: 5px;
+    font-size: 30px;
+}
+
+.menuBox ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: white;
+    font-size: 10px;
+}
+
+.menuBox li {
+    float: left;
+}
+
+.menuBox li a{
+    display: block;
+    color: gray;
+    font-style: italic;
+    text-decoration: none;
+    padding: 0px 5px;
+}
+
+.menuBox li a.active {
+    color: black
+}
+
+.pageId {
+    background-color: white;
+
+    position: relative;
+
+    width: 410px;
+    height: 20px;
+
+    margin: auto;
+    margin-top: 40px;
+    padding-left: 5px;
+}
+
+.images {
+    background-color: white;
+
+    position: relative;
+
+    width: 410px;
+    height: 410px;
+
+    margin: auto;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.images img {
+    object-fit: cover;
+    
+    width: 200px;
+    height: 200px;
+}
+
+.contactBox {
+    background-color: white;
+
+    position: relative;
+
+    width: 415px;
+    height: 80px;
+
+    margin: auto;
+
+    text-align: center;
+}
+
+.contactBox p {
+    font-size: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+
+    margin: 15px;
+}
+.contactBox img {
+    width: 15px;
+    height: 15px;
+
+    margin: 0 5px;
+}
